@@ -152,7 +152,14 @@ const char* const SEED_NODES[] = {
   "node.bbscoin.click:11204", 
   "asia-japan-node.bbscoin.click:11204", 
   "us-east-node.bbscoin.click:11204", 
-  "us-west-node.bbscoin.click:11204"
+  "us-west-node.bbscoin.click:11204",
+  "node.bbscoin.click:11205",
+  "node.bbscoin.click:11301",
+  "node.bbscoin.click:11302",
+  "node.bbscoin.click:11303",
+  "node.bbscoin.click:11304",
+  "node.bbscoin.click:11305",
+  "node.bbscoin.click:11306"
 };
 
 struct CheckpointData {
@@ -189,7 +196,21 @@ const std::initializer_list<CheckpointData> CHECKPOINTS = {
     {755130, "c0e0baca6ab22638f2c5d3f69c53c04de9ea53afffd75a95a8d65038c5444053"},
     {785199, "55a5262c7f1d4e9f42e9ec8448456eda8936efdd8f74ab5ed2c5c48fa209886a"},
     {832118, "c2636869822ed4020b321ae50abae4ab8ca78524d5238b67a4e69e587b37594e"},
-    {856513, "618432377f70f7c2140a0db1c3731902adeacb413f2ff17538e31a1ceaeffb22"}   
+    {856513, "618432377f70f7c2140a0db1c3731902adeacb413f2ff17538e31a1ceaeffb22"},
+    {900001, "ec11b0c03b8ce2ea465d3a60347046edc6cd38e7275f87f3e19f25bd05f70334"},
+    {950001, "009d22e63640f89eb99e29f12871008b1efc0469e4c3c50a0eabb2d4f1172dc8"},
+    {1000001, "ce51c7345f4398950700a5987a03105bd5cbf8657c0d3fa650020c04929f10b8"},
+    {1010001, "b53581dc38a4f3dc4193fd1c758970c34991db2b6a7b9b0d202dd754df1d0bae"},
+    {1020001, "ba64f7605420c87385a1cf91ab576fb46fa5ed7f470966648d57c3ffee0d9297"},
+    {1030001, "9d9a19e083998de9831c866024099ada831015fcb645dec10bd734723c1ce34e"},
+    {1040001, "8db66e90590cb5f67f8f2b3a3500a44549bd600bcee63ce3e96dacdb770229bb"},
+    {1050001, "8349710f9154ce062bfa243d1e31e2f5975b456cab2ec430d9728f604b08ade8"},
+    {1060001, "787c71b98936dcb1d350f0299bc83a75d9dd548437a889815180fedea440466a"},
+    {1070001, "f2bb2ad9dc4e25bb514072844fbcf39a1da68d301af32958a3ecddfa97e76449"},
+    {1080001, "a2ce423d7fd12a49f525204343dbfef3608df42ea9b0b36d844c5154937b8f45"},
+    {1090001, "9401656c96e5d145f961110ed674b0c97c159fc92f59410fd2804bcab8cdf4bf"},
+    {1101113, "a9cb7b43163435b5e4eebba5a3017bcea3a5cf8575473360ec9615202e5ad089"},
+    {1166211, "9d8aac108ad07df796d8aead04c850735fe7e54c211ac61a3221c312791b2be9"}
 };
 
 } // CryptoNote
