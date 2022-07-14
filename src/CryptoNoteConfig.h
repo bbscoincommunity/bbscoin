@@ -150,9 +150,9 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 
 const char* const SEED_NODES[] = {
   "seed.bbscoin.click:11204",
-  "singapore-seed.bbscoin.click:21204",
-  "toronto-seed.bbscoin.click:21204",
-  "frankfurt-seed.bbscoin.click:21204",
+  "singapore-seed.bbscoin.click:11204",
+  "toronto-seed.bbscoin.click:11204",
+  "frankfurt-seed.bbscoin.click:11204",
   "node.bbscoin.click:11204"
 };
 
