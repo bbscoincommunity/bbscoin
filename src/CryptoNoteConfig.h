@@ -149,18 +149,11 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115";
 
 const char* const SEED_NODES[] = {
-  "nodes.bbscoin.click:11204",
-  "us-east-node.bbscoin.click:11204",
-  "us-west-node.bbscoin.click:11204",
-  "asia-japan-node.bbscoin.click:11204",
-  "node.bbscoin.click:11204",
-  "node.bbscoin.click:11205",
-  "node.bbscoin.click:11301",
-  "node.bbscoin.click:11302",
-  "node.bbscoin.click:11303",
-  "node.bbscoin.click:11304",
-  "node.bbscoin.click:11305",
-  "node.bbscoin.click:11306"
+  "seed.bbscoin.click:11204",
+  "singapore-seed.bbscoin.click:21204",
+  "toronto-seed.bbscoin.click:21204",
+  "frankfurt-seed.bbscoin.click:21204",
+  "node.bbscoin.click:11204"
 };
 
 struct CheckpointData {
