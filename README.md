@@ -21,14 +21,14 @@ You can see the binaries in the src folder
 
 ```
 yum install git cmake gcc-c++ gcc glibc-static wget libstdc++-static
-wget https://dl.bintray.com/boostorg/release/1.66.0/source/boost_1_66_0.tar.gz
-tar xzvf https://dl.bintray.com/boostorg/release/1.66.0/source/boost_1_66_0.tar.gz
-cd boost_1_66_0
+wget https://boostorg.jfrog.io/artifactory/main/release/1.66.0/source/boost_1_66_0.tar.gz
+tar xzvf ./boost_1_66_0.tar.gz
+cd ./boost_1_66_0
 ./bootstrap.sh
 ./b2 install
 cd ..
 git clone https://github.com/bbscoincommunity/bbscoin.git
-cd bbscoin
+cd ./bbscoin
 make
 ```
 
