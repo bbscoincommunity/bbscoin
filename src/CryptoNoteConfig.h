@@ -153,6 +153,9 @@ const char* const SEED_NODES[] = {
   "singapore-seed.bbscoin.click:11204",
   "toronto-seed.bbscoin.click:11204",
   "frankfurt-seed.bbscoin.click:11204",
+  "us-seed.bbscoin.click:11204",
+  "spain-seed.bbscoin.click:11204",
+  "germany-seed.bbscoin.click:11204",
   "node.bbscoin.click:11204"
 };
 
@@ -211,7 +214,15 @@ const std::initializer_list<CheckpointData> CHECKPOINTS = {
   {1200001, "3651fabc9f48c8ef9eb3bcc0182292d34833ee199d6c04c26095ad90094bd1f4"},
   {1210001, "ee4daae934898cf6d85e64812609737d1f609788c9b0f910ab1927cd575c4bb5"},
   {1220001, "db8e7dde8b6ce917b63e945019133ab25841beb7bc618e98e3de76d472f4e20f"},
-  {1230001, "c23e58df813fc641eff39a8226a78c3b95dd2ad27d4cdc2522f55d62ecc35c58"}
+  {1230001, "c23e58df813fc641eff39a8226a78c3b95dd2ad27d4cdc2522f55d62ecc35c58"},
+  {1265001, "b141d55f762bbd4ea9ca19719842e988d9acb1876cf2d980018e4270e2623d5c"},
+  {1315001, "43493ce05ed630b0eb9198db2cf0ff0f60c77d42bd22cb84a10112176c838880"},
+  {1383001, "63c650e4f5fd67fa5d16de822ab2388d1ccf125cda5451387b325a291e03f9e7"},
+  {1419001, "687366f6203f321f65bca9e8cea9d9c7638c385da68e8e1d23a78db0f3a61c5d"},
+  {1467001, "12aabd55ee885a64f4ae7aff9b1817ca8d5758b6889c457efa493849f8ef31ef"},
+  {1501001, "aeb81323c0ffcaea2ec8e6fe0e7147bb5206b306b0926dcce04210bf2cac591f"},
+  {1543001, "f2257f710784a3fe66fc65311db7582785f013a6f18b59544976aed57da85d00"},
+  {1580101, "e418412af058b341f9c869862db7796653570544610306e7c83cfa5966885c4a"}
 };
 
 } // CryptoNote
