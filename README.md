@@ -6,7 +6,7 @@ This repo contains daemons for blockchain, payment and wallet service.
 
 ## Building BBSCoin 
 
-### On Ubuntu 16.04/18.04
+### On Ubuntu 16.04/18.04 or Debian 9/10
 
 ```
 sudo apt-get install build-essential libboost-all-dev git cmake
